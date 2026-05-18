@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run navigation spec",
+			"type": "shell",
+			"command": "npx",
+			"args": [
+				"cypress",
+				"run",
+				"--spec",
+				"cypress/e2e/task1/navigation.cy.js"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "test"
+		}
+	]
+}
